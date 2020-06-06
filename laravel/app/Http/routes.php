@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//基础路由
+Route::get('test',function(){
+    return 'test';
+});
+
+Reout::post('admin/test',function(){
+    return 'post';
+});
