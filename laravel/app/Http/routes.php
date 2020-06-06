@@ -22,3 +22,9 @@ Route::get('test',function(){
 Route::post('admin/test',function(){
     return 'post';
 });
+
+//多请求路由
+Route::match(['get','post'],'admin/login',function(){
+    return 'login';
+});
+
