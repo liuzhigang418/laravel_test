@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
 //基础路由
@@ -26,10 +26,10 @@ Route::post('admin/test',function(){
 //多请求路由
 Route::match(['get','post'],'admin/login',function(){
     return 'login';
-});
+});*/
 
 //any
-Route::any('admin/register',function(){
+/*Route::any('admin/register',function(){
     return 'register';
 });
 
@@ -55,4 +55,7 @@ Route::get('limit/{name}',function($name){
 //多参数限制
 Route::get('user/{id}/{name}',function($id,$name){
     return $id.'->'.$name;
-})->where(['id'=>'[1-9]*','name'=>'[A-Za-z]*']);
+})->where(['id'=>'[1-9]*','name'=>'[A-Za-z]*']);*/
+
+//控制器路由
+Route::get('test/{id}','Admin\TestController@test')->where('id','[0-9]*');
