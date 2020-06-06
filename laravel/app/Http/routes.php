@@ -28,3 +28,31 @@ Route::match(['get','post'],'admin/login',function(){
     return 'login';
 });
 
+//any
+Route::any('admin/register',function(){
+    return 'register';
+});
+
+//路由传参
+Route::get('admin/login/{id}',function($id){
+   return $id;
+});
+
+//路由传参(多参数)
+Route::get('user/{id}/{name}',function($id,$name){
+    return $id.'->'.$name;
+});
+
+//路由传递可选参数
+Route::get('good/{page?}',function($page=1){
+    return 'page->'.$page;
+});
+
+//参数限制
+Route::get('limit/{name}',function($name){
+    return $name;
+})->where('name','[A-Za-z]*');
+//多参数限制
+Route::get('user/{id}/{name}',function($id,$name){
+    return $id.'->'.$name;
+})->where(['id'=>'[1-9]*','name'=>'[A-Za-z]*']);
