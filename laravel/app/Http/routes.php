@@ -19,6 +19,6 @@ Route::get('test',function(){
     return 'test';
 });
 
-Reout::post('admin/test',function(){
+Route::post('admin/test',function(){
     return 'post';
 });
