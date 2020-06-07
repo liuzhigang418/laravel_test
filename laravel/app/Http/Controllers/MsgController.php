@@ -6,7 +6,8 @@ use App\Http\Controllers\Controller;
 
 class MsgController extends Controller{
     public function test(){
-        return view('test');//将使用test.blade.php
+        $data=['title'=>'测试','msg'=>'eminem'];
+        return view('test',$data);//将使用test.blade.php
     }
 
     public function add (){
