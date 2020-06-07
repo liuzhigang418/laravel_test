@@ -58,4 +58,9 @@ Route::get('user/{id}/{name}',function($id,$name){
 })->where(['id'=>'[1-9]*','name'=>'[A-Za-z]*']);*/
 
 //控制器路由
-Route::get('test/{id}','Admin\TestController@test')->where('id','[0-9]*');
+//Route::get('test/{id}','Admin\TestController@test')->where('id','[0-9]*');
+
+//模板页面路由
+Route::get('test','MsgController@test');
+
+Route::get('admin/index','MsgController@add');
