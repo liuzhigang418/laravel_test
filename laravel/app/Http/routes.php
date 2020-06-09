@@ -63,4 +63,10 @@ Route::get('user/{id}/{name}',function($id,$name){
 //模板页面路由
 Route::get('test','MsgController@test');
 
-Route::get('admin/index','MsgController@add');
+Route::get('add','MsgController@add');
+
+Route::get('up','MsgController@up');
+
+Route::get('del','MsgController@del');
+
+Route::get('show','MsgController@show');
