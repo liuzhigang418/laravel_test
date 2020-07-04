@@ -74,3 +74,11 @@ Route::get('show','MsgController@show');*/
 Route::get('/',function(){
    return view('login');
 });
+
+Route::get('/login','View\MemberController@toLogin');
+
+Route::get('/register','View\MemberController@toRegister');
+
+
+
+Route::any('/service/validate_code/create','Service\ValidateController@create');
