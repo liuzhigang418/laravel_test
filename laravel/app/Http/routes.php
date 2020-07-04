@@ -61,7 +61,7 @@ Route::get('user/{id}/{name}',function($id,$name){
 //Route::get('test/{id}','Admin\TestController@test')->where('id','[0-9]*');
 
 //模板页面路由
-Route::get('test','MsgController@test');
+/*Route::get('test','MsgController@test');
 
 Route::get('add','MsgController@add');
 
@@ -69,4 +69,8 @@ Route::get('up','MsgController@up');
 
 Route::get('del','MsgController@del');
 
-Route::get('show','MsgController@show');
+Route::get('show','MsgController@show');*/
+
+Route::get('/',function(){
+   return view('login');
+});
