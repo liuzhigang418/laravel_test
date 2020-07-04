@@ -45,17 +45,21 @@ class MsgController extends Controller{
     public function show(){
 
         //取多行 get
-        //select * from goods
-        var_dump(DB::table('goods')->get());
-        //select * from goods where id>1
-        var_dump(DB::table('goods')->where('id','>',1)->get());
+//        //select * from goods
+//        var_dump(DB::table('goods')->get());
+//        //select * from goods where id>1
+//        var_dump(DB::table('goods')->where('id','>',1)->get());
+//
+//        //选择某些列
+//        //select id,title from goods
+//        var_dump(DB::table('goods')->select('id','title')->get());
+//
+//        //取单行first
+//        var_dump(DB::table('goods')->where('id','>',1)->first());
 
-        //选择某些列
-        //select id,title from goods
-        var_dump(DB::table('goods')->select('id','title')->get());
 
-        //取单行first
-        var_dump(DB::table('goods')->where('id','>',1)->first());
+        //模板继承
+       return view('son');
 
 
     }
