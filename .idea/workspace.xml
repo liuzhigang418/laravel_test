@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60006bf7-4cf6-4611-b58e-e3dd1c806f9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Entity/Category.php" afterPath="$PROJECT_DIR$/laravel/app/Entity/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/View/BookController.php" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/View/BookController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/Http/routes.php" afterPath="$PROJECT_DIR$/laravel/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/css/book.css" afterPath="$PROJECT_DIR$/laravel/public/css/book.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/config/app.php" afterPath="$PROJECT_DIR$/laravel/config/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/resources/views/category.blade.php" afterPath="$PROJECT_DIR$/laravel/resources/views/category.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/resources/views/master.blade.php" afterPath="$PROJECT_DIR$/laravel/resources/views/master.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/resources/views/product.blade.php" afterPath="$PROJECT_DIR$/laravel/resources/views/product.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="93" column="61" lean-forward="true" selection-start-line="93" selection-start-column="61" selection-end-line="93" selection-end-column="61" />
+            <state relative-caret-position="320">
+              <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -43,65 +42,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/register.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="183" column="7" lean-forward="true" selection-start-line="155" selection-start-column="3" selection-end-line="183" selection-end-column="7" />
-              <folding>
-                <element signature="e#5489#6347#0#HTML" expanded="false" />
-                <marker date="1594003480473" expanded="true" signature="9:17" ph="..." />
-                <marker date="1594003480473" expanded="true" signature="29:42" ph="..." />
-                <marker date="1594003480473" expanded="true" signature="54:63" ph="..." />
-                <marker date="1594003480473" expanded="true" signature="3562:3569" ph="..." />
-                <marker date="1594003480473" expanded="true" signature="7546:7558" ph="..." />
-                <marker date="1594003480473" expanded="true" signature="7854:7866" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ValidateController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Service/ValidateController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-238">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/login.blade.php">
+      <file leaf-file-name="category.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/category.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
               <folding>
-                <marker date="1594025670004" expanded="true" signature="9:17" ph="..." />
-                <marker date="1594025670004" expanded="true" signature="29:48" ph="..." />
-                <marker date="1594025670004" expanded="true" signature="60:73" ph="..." />
-                <marker date="1594025670004" expanded="true" signature="85:94" ph="..." />
-                <marker date="1594025670004" expanded="true" signature="1517:1524" ph="..." />
-                <marker date="1594025670004" expanded="true" signature="2532:2544" ph="..." />
+                <marker date="1594045672676" expanded="true" signature="9:17" ph="..." />
+                <marker date="1594045672676" expanded="true" signature="28:42" ph="..." />
+                <marker date="1594045672676" expanded="true" signature="53:62" ph="..." />
+                <marker date="1594045672676" expanded="true" signature="419:428" ph="..." />
+                <marker date="1594045672676" expanded="true" signature="419:432" ph="..." />
+                <marker date="1594045672676" expanded="true" signature="438:453" ph="..." />
+                <marker date="1594045672676" expanded="true" signature="1100:1107" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/resources/views/category.blade.php">
+      <file leaf-file-name="product.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/resources/views/product.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
-                <marker date="1594039940661" expanded="true" signature="9:17" ph="..." />
-                <marker date="1594039940661" expanded="true" signature="28:42" ph="..." />
-                <marker date="1594039940661" expanded="true" signature="53:62" ph="..." />
-                <marker date="1594039940661" expanded="true" signature="419:428" ph="..." />
-                <marker date="1594039940661" expanded="true" signature="419:432" ph="..." />
-                <marker date="1594039940661" expanded="true" signature="438:453" ph="..." />
-                <marker date="1594039940661" expanded="true" signature="1100:1107" ph="..." />
+                <element signature="e#607#641#0#HTML" expanded="true" />
+                <marker date="1594045787262" expanded="true" signature="9:17" ph="..." />
+                <marker date="1594045787262" expanded="true" signature="28:42" ph="..." />
+                <marker date="1594045787262" expanded="true" signature="54:63" ph="..." />
+                <marker date="1594045787262" expanded="true" signature="353:370" ph="..." />
+                <marker date="1594045787262" expanded="true" signature="536:550" ph="..." />
+                <marker date="1594045787262" expanded="true" signature="646:661" ph="..." />
+                <marker date="1594045787262" expanded="true" signature="744:761" ph="..." />
+                <marker date="1594045787262" expanded="true" signature="917:924" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,11 +110,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/View/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="e#45#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/Entity/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -177,7 +183,6 @@
         <option value="$PROJECT_DIR$/laravel/config/database.php" />
         <option value="$PROJECT_DIR$/laravel/.env" />
         <option value="$PROJECT_DIR$/laravel/config/mail.php" />
-        <option value="$PROJECT_DIR$/laravel/config/app.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/email_register.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/Service/ValidateController.php" />
         <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/Service/MemberController.php" />
@@ -185,10 +190,12 @@
         <option value="$PROJECT_DIR$/laravel/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/laravel/app/Entity/Category.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/Service/BookController.php" />
-        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/View/BookController.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/laravel/resources/views/category.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/resources/views/product.blade.php" />
+        <option value="$PROJECT_DIR$/laravel/config/app.php" />
+        <option value="$PROJECT_DIR$/laravel/app/Http/Controllers/View/BookController.php" />
       </list>
     </option>
   </component>
@@ -203,9 +210,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="5" />
-    <option name="width" value="1030" />
+    <option name="x" value="8" />
+    <option name="y" value="10" />
+    <option name="width" value="932" />
     <option name="height" value="709" />
   </component>
   <component name="ProjectView">
@@ -279,6 +286,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel_test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel_test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -302,46 +349,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel_test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel_test" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -655,18 +662,18 @@
       <workItem from="1592277387367" duration="7666000" />
       <workItem from="1592460955881" duration="45000" />
       <workItem from="1593762113100" duration="1865000" />
-      <workItem from="1593857568758" duration="39398000" />
+      <workItem from="1593857568758" duration="45748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51639000" />
+    <option name="totallyTimeSpent" value="57989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="5" width="1030" height="709" extended-state="0" />
+    <frame x="8" y="10" width="932" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1814433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20642202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -696,43 +703,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../bin/apache/apache2.4.9/conf/httpd.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3217">
-          <caret line="326" column="0" lean-forward="true" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/学习视频/laravel5/laravel实战/book/resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="80" selection-end-column="9" />
-          <folding>
-            <element signature="n#script#1;n#html#0;n#!!top" expanded="false" />
-            <marker date="1451209650000" expanded="true" signature="167:174" ph="..." />
-            <marker date="1451209650000" expanded="true" signature="322:331" ph="..." />
-            <marker date="1451209650000" expanded="true" signature="2452:2459" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Events/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -941,14 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1070,18 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="91" column="40" lean-forward="false" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-          <folding>
-            <marker date="1594025761307" expanded="true" signature="388:395" ph="..." />
-            <marker date="1594025761307" expanded="true" signature="691:700" ph="..." />
-            <marker date="1594025761307" expanded="true" signature="2982:2989" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Entity/Member.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1122,22 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Service/ValidateController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="93" column="61" lean-forward="true" selection-start-line="93" selection-start-column="61" selection-end-line="93" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Service/BookController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1146,26 +1080,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/View/BookController.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/Entity/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/Service/ValidateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="85" column="42" lean-forward="false" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="91" column="40" lean-forward="false" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+          <folding>
+            <marker date="1594025761307" expanded="true" signature="388:395" ph="..." />
+            <marker date="1594025761307" expanded="true" signature="691:700" ph="..." />
+            <marker date="1594025761307" expanded="true" signature="2982:2989" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/resources/views/category.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
           <folding>
-            <marker date="1594039940661" expanded="true" signature="9:17" ph="..." />
-            <marker date="1594039940661" expanded="true" signature="28:42" ph="..." />
-            <marker date="1594039940661" expanded="true" signature="53:62" ph="..." />
-            <marker date="1594039940661" expanded="true" signature="419:428" ph="..." />
-            <marker date="1594039940661" expanded="true" signature="419:432" ph="..." />
-            <marker date="1594039940661" expanded="true" signature="438:453" ph="..." />
-            <marker date="1594039940661" expanded="true" signature="1100:1107" ph="..." />
+            <marker date="1594045672676" expanded="true" signature="9:17" ph="..." />
+            <marker date="1594045672676" expanded="true" signature="28:42" ph="..." />
+            <marker date="1594045672676" expanded="true" signature="53:62" ph="..." />
+            <marker date="1594045672676" expanded="true" signature="419:428" ph="..." />
+            <marker date="1594045672676" expanded="true" signature="419:432" ph="..." />
+            <marker date="1594045672676" expanded="true" signature="438:453" ph="..." />
+            <marker date="1594045672676" expanded="true" signature="1100:1107" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/resources/views/product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#607#641#0#HTML" expanded="true" />
+            <marker date="1594045787262" expanded="true" signature="9:17" ph="..." />
+            <marker date="1594045787262" expanded="true" signature="28:42" ph="..." />
+            <marker date="1594045787262" expanded="true" signature="54:63" ph="..." />
+            <marker date="1594045787262" expanded="true" signature="353:370" ph="..." />
+            <marker date="1594045787262" expanded="true" signature="536:550" ph="..." />
+            <marker date="1594045787262" expanded="true" signature="646:661" ph="..." />
+            <marker date="1594045787262" expanded="true" signature="744:761" ph="..." />
+            <marker date="1594045787262" expanded="true" signature="917:924" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/storage/logs/laravel-2020-07-06.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/Http/Controllers/View/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#45#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

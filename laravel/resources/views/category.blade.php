@@ -69,7 +69,7 @@
 
                     for (var i = 0; i < data.categorys.length; i++) {
                         var next = '/product/category_id/' + data.categorys[i].id;
-                        var node = '<a class="weui_cell" herf="' + nest + '">' +
+                        var node = '<a class="weui_cell" href="' + next + '">' +
                             '<div class="weui_cell_bd weui_cell_primary">' +
                             '<p>' + data.categorys[i].name + '</p>' +
                             '</div>' +
