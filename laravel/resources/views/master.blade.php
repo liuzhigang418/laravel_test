@@ -6,20 +6,27 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/weui.css">
-    <link rel="stylesheet" href="/css/book.css">
+    <link rel="stylesheet" href="/css/book.css?12344">
     <title>@yield('title')</title>
 </head>
 <body>
+<div class="bk_title_bar">
+    <img class="bk_back" src="/images/back.png" alt="" onclick="history.go(-1)">
+    <p class="bk_title_content">xxxxx</p>
+    <img class="bk_menu" src="/images/More.png" alt="" onclick="onMenuClick();">
+</div>
 
 
-@yield('content')
+
+<div class="page">
+    @yield('content')
+
+</div>
+
 
 <!--tooltips -->
 <div class="bk_toptips"><span></span></div>
 
-<div id="global_menu" onclick="onMenuClick();">
-    <div></div>
-</div>
 
 <!--BEGIN actionSheet 菜单-->
 <div id="actionSheet_wrap">
@@ -81,6 +88,8 @@
             setTimeout(function() {$('.bk_toptips').hide();}, 2000);
         }
     }
+//标题栏与标题一直
+    $('.bk_title_content').html(document.title);
 </script>
 
 @yield('my-js')
