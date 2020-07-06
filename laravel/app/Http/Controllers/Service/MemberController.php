@@ -133,4 +133,49 @@ class MemberController extends Controller
             return $m3_result->toJson();
         }
     }
+
+
+
+    //登录验证
+    function login(Request $request){
+        $username=$request->get('username','');
+        $password = $request->get('password','');
+        $validate = $request->get('validate_code','');
+
+        //验证
+        $m3_result = new M3Result;
+
+
+        //判断
+        $validate_code_session = $request->session()->get('validate');
+        if($validate != $validate_code_session){
+            $m3_result->status = 1;
+            $m3_result->message='验证码不正确';
+            return $m3_result->toJson();
+        }
+        if(strpos($username,'@')==true){
+            $member = Member::where('email',$username)->first();
+        }else{
+            $member = Member::where('phone',$username)->first();
+        }
+
+        if($member==null){
+            $m3_result->status = 1;
+            $m3_result->message='该用户未注册';
+            return $m3_result->toJson();
+        }else{
+            if(md5('bk' + $password) !=$member->password){
+                $m3_result->status = 1;
+                $m3_result->message='密码错误';
+                return $m3_result->toJson();
+            }
+        }
+
+        $request->session()->put('member',$member);
+
+        $m3_result->status = 0;
+        $m3_result->message='登录成功';
+        return $m3_result->toJson();
+
+    }
 }

@@ -75,13 +75,21 @@ Route::get('/',function(){
    return view('login');
 });
 
+Route::any('/category',function(){
+   return view('category');
+});
+
 Route::get('/login','View\MemberController@toLogin');
 
 Route::get('/register','View\MemberController@toRegister');
 
 
+Route::group(['prefix'=>'service'],function(){
+    Route::any('validate_code/create','Service\ValidateController@create');
+    Route::any('validate_phone/send','Service\ValidateController@sendSMS');
+    Route::post('register','Service\MemberController@register');
+    Route::get('validate_email','Service\ValidateController@validateEmail');
+    Route::post('login','Service\MemberController@login');
+});
 
-Route::any('/service/validate_code/create','Service\ValidateController@create');
-Route::any('/service/validate_phone/send','Service\ValidateController@sendSMS');
-Route::post('/service/register','Service\MemberController@register');
-Route::get('/service/validate_email','Service\ValidateController@validateEmail');
+
