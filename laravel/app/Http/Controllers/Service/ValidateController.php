@@ -46,6 +46,7 @@ class ValidateController extends Controller
         $code .= $charset[mt_rand(0, $_len)];
     }
     $m3_result = $sendTemplateSMS->sendTemplateSMS($phone, array($code, 60), 1);
+
     if($m3_result->status == 0) {
       $tempPhone = TempPhone::where('phone', $phone)->first();
       if($tempPhone == null) {
@@ -54,7 +55,8 @@ class ValidateController extends Controller
       $tempPhone->phone = $phone;
       $tempPhone->code = $code;
       $tempPhone->deadline = date('Y-m-d H-i-s', time() + 60*60);
-      $tempPhone->save();
+
+      $ab=$tempPhone->save();
     }
 
     return $m3_result->toJson();

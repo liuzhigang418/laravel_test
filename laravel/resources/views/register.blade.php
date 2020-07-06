@@ -138,6 +138,8 @@
 
     $(this).removeClass('bk_important');
     $(this).addClass('bk_summary');
+
+    //限制重复不停点击发送验证码按钮 用window.setInterval()控制
     enable = false;
     var num = 60;
     var interval = window.setInterval(function() {
@@ -214,6 +216,7 @@
           }
         }
 
+        {{--注册时post laravel提供SCRT保护措施 防止跨站请求 _token: {{scrf_token()}}--}}
         $.ajax({
           type: "POST",
           url: '/service/register',

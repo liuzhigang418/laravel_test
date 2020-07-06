@@ -11,7 +11,7 @@ class SendTemplateSMS
 
   //主帐号Token
   private $accountToken='c7a1c3563b1347f4adbe0734f981dac1';
-
+//fd271adc369649f593c70379de982748
   //应用Id
   private $appId='8a48b55149d5792d0149dd63a3c4046d';
 
