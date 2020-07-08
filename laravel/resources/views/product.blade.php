@@ -5,7 +5,7 @@
         <div class="weui_cells_title"></div>
         <div class="weui_cells weui_cells_access">
             @foreach($products as $product)
-            <a class="weui_cell" href="javascript:;">
+            <a class="weui_cell" href="/product/{{$product->id}};">
                 <div class="weui_cell_hd">
                     <img class="bk_preview" src="{{$product->preview}}" />
                 </div>

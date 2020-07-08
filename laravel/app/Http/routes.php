@@ -84,7 +84,7 @@ Route::get('/login','View\MemberController@toLogin');
 Route::get('/register','View\MemberController@toRegister');
 Route::get('/category','view\BookController@toCategory');
 Route::get('/product/category_id/{category_id}','view\BookController@toProduct');
-
+Route::get('/product/{product_id}','view\BookController@toPdtContent');
 
 Route::group(['prefix'=>'service'],function(){
     Route::any('validate_code/create','Service\ValidateController@create');
